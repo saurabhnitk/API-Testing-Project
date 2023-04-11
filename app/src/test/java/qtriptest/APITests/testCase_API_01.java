@@ -15,7 +15,7 @@ import java.util.UUID;
 
 
 public class testCase_API_01 {
-    @Test //Combine into one test
+    @Test(groups = {"API test"})
     public void TestCase01(){
 
         RestAssured.baseURI = "https://content-qtripdynamic-qa-backend.azurewebsites.net";

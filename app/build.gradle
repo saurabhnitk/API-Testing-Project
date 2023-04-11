@@ -50,6 +50,7 @@ application {
 
 test {
     useTestNG() {
+        suites 'src/test/java/qtriptest/testng.xml'
         useDefaultListeners = true // generates the test report
     }
      afterSuite { desc, result ->

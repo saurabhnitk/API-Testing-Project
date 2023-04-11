@@ -55,7 +55,7 @@ public class testCase_API_03 {
         id = jsonPath.getString("id");
     }
 
-    @Test
+    @Test(groups = {"API test"})
     public void makeReservation(){
         registerUser();
         userlogin();

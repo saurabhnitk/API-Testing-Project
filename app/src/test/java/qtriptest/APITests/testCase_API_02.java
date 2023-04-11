@@ -16,7 +16,7 @@ import java.io.File;
 import java.util.LinkedHashMap;
 import java.util.UUID;
 public class testCase_API_02 {
-    @Test
+    @Test(groups = {"API test"})
     public void searchCity(){
         RestAssured.baseURI = "https://content-qtripdynamic-qa-backend.azurewebsites.net";
         RestAssured.basePath = "api/v1/cities";

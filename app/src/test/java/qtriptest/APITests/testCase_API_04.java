@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 import java.util.UUID;
 
 public class testCase_API_04 {
-    @Test
+    @Test(groups = {"API test"})
     public void registerUserTest(){
 
         RestAssured.baseURI = "https://content-qtripdynamic-qa-backend.azurewebsites.net";
